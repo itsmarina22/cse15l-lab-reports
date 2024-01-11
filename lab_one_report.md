@@ -48,17 +48,22 @@ ls
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
     > The above outputs were observed because, within the /home working directory, the only file and/or folder to exist is the printed lecture1 folder, thus that is the only folder listed when the ls command is run without any additional arguments
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
-    >
+    >These are all the expected output, and none of the above commands produced unexpected errors.
  
 * Share an example of using the command with a path to a directory as an argument.
   * A screenshot or Markdown code block showing the command and its output
     >![Image](lab_report_one_photos/ls_with_path_to_directory.JPG)
   * What the working directory was when the command was run
+    * ## might want to check this, is it /home or /home/lecture1? clarify what working directory def is
+    > for the ls lecture1/ command, the working directory is /home
     >
+    > for the ls messages/ command, the working directory is /home/lecture1
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
+    > for ls lecture1/ command, the results were observed because within the lecture1 folder in the working directory of /home, three files (Hello.class, Hello.java, and README) and one folder (messages) are present
     >
+    > for ls messages/ command, the results were observed because within the messages folder in the wroking directory of /home/lecture1, four txt files (en-us.txt, es-mx.txt, fr-ca,txt, zh-cn.txt) are present.
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
-    > 
+    > These are all the expected output, and none of the above commands produced unexpected errors.
  
 * Share an example of using the command with a path to a file as an argument.
   * A screenshot or Markdown code block showing the command and its output
@@ -78,7 +83,7 @@ ls
     >
     > With the second ls en-us.txt, "en-us.txt" is printed because now we are in the working directory (/home/lecture1/messages) which that file is in
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
-    > All the above outputs were expected and none were unexpected errors
+    > All the above outputs were expected, and none were unexpected errors. All errors produced were expected. 
 
 
 cat

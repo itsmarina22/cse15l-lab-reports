@@ -43,8 +43,6 @@
 
 
 
-&nbsp;
-&nbsp;
 📰ls
 --
 * Share an example of using the command with no arguments.
@@ -102,33 +100,41 @@
   * A screenshot or Markdown code block showing the command and its output
     >![Image](lab_report_one_photos/cat_with_no_arguments.JPG)
   * What the working directory was when the command was run
-    >
+    > /home
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
-    >
+    * ## ‼️: might want to check this
+    > For this command with no arguments, whatever the user types in the terminal becomes printed as the output. This is because, within the current working directory, there is no file for the command to print out the content. There is only a folder called lecture1. According the to documentation, it states that when cat is used with no files (as is the case here), it'll copy the standard input to standard output
+    > > source: https://man7.org/linux/man-pages/man1/cat.1.html
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
-    >
+    > This is not an error and instead, what is expected
 
  
 * Share an example of using the command with a path to a directory as an argument.
   * A screenshot or Markdown code block showing the command and its output
     >![Image](lab_report_one_photos/cat_with_path_to_directory.JPG)
   * What the working directory was when the command was run
-    >
+    > /home
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
-    >
+    > The following output was produced because cat can only read files, not folders or directories. Because a folder/directory called lecture1 was provided, it outputs that, letting us know that lecture1 is a directory, and using cat will not read the contents of lecture1 as it is not a file. 
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
-    >
+    > This is not an error and instead, what is expected
 
  
 * Share an example of using the command with a path to a file as an argument.
   * A screenshot or Markdown code block showing the command and its output
     >![Image](lab_report_one_photos/cat_with_path_to_a_file.JPG)
   * What the working directory was when the command was run
+    > for the cat Hello.java command, the working directory is /home
     >
+    > ## ‼️: might want to check this
+    > for the cat /home/lecture1/Hello.java command, the working directory is also /home
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
+    > for the cat Hello.java command, the above error was observed because Hello.java isn't a file or directory or path that is present within /home
     >
+    > for the cat /home/lecture1/Hello.java command, because we have now directly provided the path to be /home/lecture1/Hello.java, the prompt is able to navigate to the exact file Hello.java, and thus it'll print out all the content of Hello.java
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
-    >
+    * ## ‼️: might want to check this, for all, is it okay to write that this is what is expected and there's no unexpected errors?
+    > This is not an error and instead, what is expected
 
 
 

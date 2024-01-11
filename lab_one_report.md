@@ -58,11 +58,17 @@ ls
     >
     > Then with the second ls Hello.java and the first ls en-us.txt and the first ls en-us, the working directory is /home/lecture1
     >
-    > Finally with the second ls en-us.txt (no second ls en-us because this produced an error stating that no such file or directory can be accessed, which is true because the file name is en-us.txt not just en-us), the working directory is /home/lecture1/messages
+    > Finally with the second ls en-us.txt (no second ls en-us was included because this will produce an error stating that no such file or directory can be accessed, which is true because the file name is en-us.txt not just en-us), the working directory is /home/lecture1/messages
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
+    > With the first ls Hello.java, the result was observed because similar to when we used cd with a file passed as an argument, Hello.java isn't a file or directory or path that is present within /home
     >
+    > Then with the second ls Hello.java, because now we are in the working directory of /home/lecture1, "Hello.java" is printed as that file is indeed within the working directory now
+    >
+    > With the first ls en-us.txt and first ls en-us, the error was produced because we are not in the directory or path where those files reside in
+    >
+    > With the second ls en-us.txt, "en-us.txt" is printed because now we are in the working directory (/home/lecture1/messages) which that file is in
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
-    >
+    > All the above outputs were expected and none were unexpected errors
  
 * Share an example of using the command with a path to a file as an argument.
   * A screenshot or Markdown code block showing the command and its output

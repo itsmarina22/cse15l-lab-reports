@@ -1,6 +1,8 @@
 # 🍋 CSE 15L Lab 1 Report 
 ##### due on Tuesday, January 16 by 10pm ⚠️
 
+
+
 ## Workspace Commands
 🏎️cd
 --
@@ -14,6 +16,7 @@
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
     > This is not an error and is the expected output
 
+
 * Share an example of using the command with a path to a directory as an argument.
   * A screenshot or Markdown code block showing the command and its output
     > ![Image](lab_report_one_photos/cd_with_path_to_directory.JPG)
@@ -23,6 +26,7 @@
     > cd specifically is used to switch the current working directory to a given specified path. A path to lecture1 has been specified, so now the working directory of the prompt is /home/lecture1
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
     > This is not an error and is the expected output
+
 
 * Share an example of using the command with a path to a file as an argument.
   * A screenshot or Markdown code block showing the command and its output
@@ -38,6 +42,7 @@
     > This is not an error and is the expected output
 
 
+
 📰ls
 --
 * Share an example of using the command with no arguments.
@@ -49,6 +54,7 @@
     > The above outputs were observed because, within the /home working directory, the only file and/or folder to exist is the printed lecture1 folder, thus that is the only folder listed when the ls command is run without any additional arguments
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
     >These are all the expected output, and none of the above commands produced unexpected errors.
+
  
 * Share an example of using the command with a path to a directory as an argument.
   * A screenshot or Markdown code block showing the command and its output
@@ -64,6 +70,7 @@
     > for ls messages/ command, the results were observed because within the messages folder in the wroking directory of /home/lecture1, four txt files (en-us.txt, es-mx.txt, fr-ca,txt, zh-cn.txt) are present.
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
     > These are all the expected output, and none of the above commands produced unexpected errors.
+
  
 * Share an example of using the command with a path to a file as an argument.
   * A screenshot or Markdown code block showing the command and its output
@@ -86,23 +93,40 @@
     > All the above outputs were expected, and none were unexpected errors. All errors produced were expected. 
 
 
+
 ➕cat
 --
 * Share an example of using the command with no arguments.
   * A screenshot or Markdown code block showing the command and its output
+    >![Image](lab_report_one_photos/cat_with_no_arguments.JPG)
   * What the working directory was when the command was run
+    >
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
+    >
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
+    >
+
+ 
 * Share an example of using the command with a path to a directory as an argument.
   * A screenshot or Markdown code block showing the command and its output
+    >>![Image](lab_report_one_photos/cat_with_path_to_directory.JPG)
   * What the working directory was when the command was run
+    >
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
+    >
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
+    >
+
+ 
 * Share an example of using the command with a path to a file as an argument.
   * A screenshot or Markdown code block showing the command and its output
+    >>![Image](lab_report_one_photos/cat_with_path_to_a_file.JPG)
   * What the working directory was when the command was run
+    >
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
+    >
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
+    >
 
 
 

@@ -54,7 +54,7 @@ ls
   * A screenshot or Markdown code block showing the command and its output
     >![Image](lab_report_one_photos/ls_with_path_to_directory.JPG)
   * What the working directory was when the command was run
-    * ## might want to check this, is it /home or /home/lecture1? clarify what working directory def is
+    * ## ‼️: might want to check this, is it /home or /home/lecture1? clarify what working directory def is
     > for the ls lecture1/ command, the working directory is /home
     >
     > for the ls messages/ command, the working directory is /home/lecture1

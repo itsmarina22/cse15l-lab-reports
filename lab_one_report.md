@@ -1,5 +1,5 @@
 # 🍋 CSE 15L Lab 1 Report 
-##### due on Tuesday, January 16 by 10pm
+##### due on Tuesday, January 16 by 10pm ⚠️
 
 ## Workspace Commands
 🏎️cd

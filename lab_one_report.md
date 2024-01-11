@@ -54,6 +54,16 @@ ls
   * A screenshot or Markdown code block showing the command and its output
     >![Image](lab_report_one_photos/ls_with_path_to_directory.JPG)
   * What the working directory was when the command was run
+    >
+  * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
+    >
+  * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
+    > 
+ 
+* Share an example of using the command with a path to a file as an argument.
+  * A screenshot or Markdown code block showing the command and its output
+    >![Image](lab_report_one_photos/ls_with_path_to_a_file.JPG)
+  * What the working directory was when the command was run
     > Initially in the first ls Hello.java, the working directory is /home
     >
     > Then with the second ls Hello.java and the first ls en-us.txt and the first ls en-us, the working directory is /home/lecture1
@@ -69,13 +79,6 @@ ls
     > With the second ls en-us.txt, "en-us.txt" is printed because now we are in the working directory (/home/lecture1/messages) which that file is in
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
     > All the above outputs were expected and none were unexpected errors
- 
-* Share an example of using the command with a path to a file as an argument.
-  * A screenshot or Markdown code block showing the command and its output
-    >![Image](lab_report_one_photos/ls_with_path_to_a_file.JPG)
-  * What the working directory was when the command was run
-  * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
-  * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
 
 
 cat

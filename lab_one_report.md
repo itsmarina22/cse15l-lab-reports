@@ -104,7 +104,6 @@
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
     * ## ‼️: might want to check this
     > For this command with no arguments, whatever the user types in the terminal becomes printed as the output. This is because, within the current working directory, there is no file for the command to print out the content. There is only a folder called lecture1. According the to [documentation](https://man7.org/linux/man-pages/man1/cat.1.html), it states that when cat is used with no files (as is the case here), it'll copy the standard input to standard output
-    > > source: https://man7.org/linux/man-pages/man1/cat.1.html
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
     > This is not an error and instead, what is expected
 

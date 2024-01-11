@@ -2,7 +2,7 @@
 ##### due on Tuesday, January 16 by 10pm
 
 ## Workspace Commands
-cd
+🏎️cd
 --
 * Share an example of using the command with no arguments.
   * A screenshot or Markdown code block showing the command and its output
@@ -38,7 +38,7 @@ cd
     > This is not an error and is the expected output
 
 
-ls
+📰ls
 --
 * Share an example of using the command with no arguments.
   * A screenshot or Markdown code block showing the command and its output
@@ -86,7 +86,7 @@ ls
     > All the above outputs were expected, and none were unexpected errors. All errors produced were expected. 
 
 
-cat
+➕cat
 --
 * Share an example of using the command with no arguments.
   * A screenshot or Markdown code block showing the command and its output

@@ -42,8 +42,7 @@
     > This is not an error and is the expected output
 
 
-
-<pre>
+&nbsp;
 📰ls
 --
 * Share an example of using the command with no arguments.

@@ -4,7 +4,7 @@
 
 
 ## Workspace Commands
-🏎️cd
+🏎️ cd
 --
 * Share an example of using the command with no arguments.
   * A screenshot or Markdown code block showing the command and its output
@@ -43,7 +43,7 @@
 
 
 
-📰ls
+📰 ls
 --
 * Share an example of using the command with no arguments.
   * A screenshot or Markdown code block showing the command and its output
@@ -94,7 +94,7 @@
 
 
 
-➕cat
+➕ cat
 --
 * Share an example of using the command with no arguments.
   * A screenshot or Markdown code block showing the command and its output

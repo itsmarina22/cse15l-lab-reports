@@ -6,7 +6,7 @@ cd
 --
 * Share an example of using the command with no arguments.
   * A screenshot or Markdown code block showing the command and its output
-    > ![Image](cd_with_no_arguments.JPG)
+    > ![Image](lab_report_one_photos/cd_with_no_arguments.JPG)
   * What the working directory was when the command was run
     > /home
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).

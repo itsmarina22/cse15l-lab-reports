@@ -32,6 +32,7 @@ cd
     > in the second time cd Hello.java was used, the working directory is /home/lecture1
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
     > for the first time cd Hello.java, the error was produced because Hello.java isn't a file or directory or path that is present within /home
+    > 
     > for the second time cd Hello.java, now we have switched to the path that contains Hello.java, thus the file does exist; however, Hello.java is a file and not a directory or path. cd requires specifying a desired path or directory to go to
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
     > This is not an error and is the expected output

@@ -109,7 +109,7 @@
  
 * Share an example of using the command with a path to a directory as an argument.
   * A screenshot or Markdown code block showing the command and its output
-    >>![Image](lab_report_one_photos/cat_with_path_to_directory.JPG)
+    >![Image](lab_report_one_photos/cat_with_path_to_directory.JPG)
   * What the working directory was when the command was run
     >
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
@@ -120,7 +120,7 @@
  
 * Share an example of using the command with a path to a file as an argument.
   * A screenshot or Markdown code block showing the command and its output
-    >>![Image](lab_report_one_photos/cat_with_path_to_a_file.JPG)
+    >![Image](lab_report_one_photos/cat_with_path_to_a_file.JPG)
   * What the working directory was when the command was run
     >
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).

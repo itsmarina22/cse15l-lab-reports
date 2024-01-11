@@ -44,14 +44,26 @@ ls
   * A screenshot or Markdown code block showing the command and its output
     >![Image](lab_report_one_photos/ls_with_no_arguments.JPG)
   * What the working directory was when the command was run
+    > /home
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
+    > The above outputs were observed because, within the /home working directory, the only file and/or folder to exist is the printed lecture1 folder, thus that is the only folder listed when the ls command is run without any additional arguments
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
+    >
+ 
 * Share an example of using the command with a path to a directory as an argument.
   * A screenshot or Markdown code block showing the command and its output
     >![Image](lab_report_one_photos/ls_with_path_to_directory.JPG)
   * What the working directory was when the command was run
+    > Initially in the first ls Hello.java, the working directory is /home
+    >
+    > Then with the second ls Hello.java and the first ls en-us.txt and the first ls en-us, the working directory is /home/lecture1
+    >
+    > Finally with the second ls en-us.txt (no second ls en-us because this produced an error stating that no such file or directory can be accessed, which is true because the file name is en-us.txt not just en-us), the working directory is /home/lecture1/messages
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
+    >
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
+    >
+ 
 * Share an example of using the command with a path to a file as an argument.
   * A screenshot or Markdown code block showing the command and its output
     >![Image](lab_report_one_photos/ls_with_path_to_a_file.JPG)

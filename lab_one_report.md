@@ -14,7 +14,7 @@
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
     > The output is observed because `cd` specifically is used to switch the current working directory to a given specified path. No path was provided to cd in the argument, so as a result, no output was generated or observed.
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
-    > This is not an error and is the expected output
+    > This is not an error and is the expected output.
 
 
 * Share an example of using the command with a path to a directory as an argument.
@@ -25,7 +25,7 @@
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
     > `cd` specifically is used to switch the current working directory to a given specified path. A path to lecture1 has been specified, so now the working directory of the prompt is `/home/lecture1`.
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
-    > This is not an error and is the expected output
+    > This is not an error and is the expected output.
 
 
 * Share an example of using the command with a path to a file as an argument.
@@ -39,7 +39,7 @@
     > 
     > For the second time `cd Hello.java`, now we have switched to the path that contains `Hello.java`, thus the file does exist; however, `Hello.java` is a file and not a directory or path. `cd` requires specifying a desired path or directory to go to.
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
-    > This is not an error and is the expected output
+    > This is not an error and is the expected output.
 
 
 
@@ -103,7 +103,7 @@
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
     > For this command with no arguments, whatever the user types in the terminal becomes printed as the output. This is because, within the current working directory, there is no file for the command to read and print out the content. There is only a folder called lecture1. According to the [documentation](https://man7.org/linux/man-pages/man1/cat.1.html), it states that when `cat` is used with no files (as is the case here), it'll copy the standard input to standard output. In other words, when one types more commands, one ends up typing them into the `cat` command, so it'll output what one has provided as an input.
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
-    > This is not an error and instead what is expected
+    > This is not an error and instead what is expected.
 
  
 * Share an example of using the command with a path to a directory as an argument.
@@ -114,7 +114,7 @@
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
     > The following output was produced because `cat` can only read files, not folders or directories. Because a folder/directory called lecture1 was provided, it outputs that, letting us know that lecture1 is a directory, and using cat will not read the contents of lecture1 as it is not a file. 
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
-    > This is not an error and instead, what is expected
+    > This is not an error and instead, what is expected.
 
  
 * Share an example of using the command with a path to a file as an argument.

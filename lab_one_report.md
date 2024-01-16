@@ -1,10 +1,9 @@
 # CSE 15L Lab 1 Report 
 ### by Marina Hu (W24 A02 Section)
 #### due on Tuesday, January 16 by 10 PM
-##
-
 
 ## Workspace Commands
+
 `cd`
 --
 * Share an example of using the command with no arguments.

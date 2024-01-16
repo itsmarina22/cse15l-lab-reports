@@ -8,7 +8,7 @@
 --
 * Share an example of using the command with no arguments.
   * A screenshot or Markdown code block showing the command and its output
-    > ![Image](lab_report_one_photos/cd_with_no_arguments.JPG)
+    > ![Image](lab_report_one_photos/cd_with_no_arguments2.JPG)
   * What the working directory was when the command was run
     > `/home`
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
@@ -19,7 +19,7 @@
 
 * Share an example of using the command with a path to a directory as an argument.
   * A screenshot or Markdown code block showing the command and its output
-    > ![Image](lab_report_one_photos/cd_with_path_to_directory.JPG)
+    > ![Image](lab_report_one_photos/cd_with_path_to_directory2.JPG)
   * What the working directory was when the command was run
     > `/home/lecture1`
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
@@ -30,7 +30,7 @@
 
 * Share an example of using the command with a path to a file as an argument.
   * A screenshot or Markdown code block showing the command and its output
-      > ![Image](lab_report_one_photos/cd_with_path_to_a_file.JPG)
+      > ![Image](lab_report_one_photos/cd_with_path_to_a_file2.JPG)
   * What the working directory was when the command was run
     > in the first time `cd Hello.java` was used, the working directory is `/home`
     > in the second time `cd Hello.java` was used, the working directory is `/home/lecture1`

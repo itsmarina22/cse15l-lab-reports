@@ -1,7 +1,7 @@
 # CSE 15L Lab 1 Report 
 ### by Marina Hu (A02 Section)
-##### due on Tuesday, January 16 by 10pm
-
+#### due on Tuesday, January 16 by 10 PM
+##
 
 
 ## Workspace Commands

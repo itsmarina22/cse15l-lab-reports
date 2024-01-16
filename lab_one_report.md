@@ -123,14 +123,12 @@
   * What the working directory was when the command was run
     > for the `cat Hello.java command`, the working directory is `/home`
     >
-    > ## ‼️: might want to check this
     > for the `cat /home/lecture1/Hello.java` command, the working directory is also `/home`
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
     > for the `cat Hello.java` command, the above error was observed because `Hello.java` isn't a file or directory or path that is present within `/home`
     >
     > for the `cat /home/lecture1/Hello.java` command, because we have now directly provided the path to be `/home/lecture1/Hello.java`, the prompt is able to navigate to the exact file `Hello.java`, and thus it'll print out all the content of `Hello.java`
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
-    * ## ‼️: might want to check this, for all, is it okay to write that this is what is expected and there's no unexpected errors?
     > This is not an error and instead, what is expected
 
 

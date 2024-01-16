@@ -1,10 +1,11 @@
-# 🍋 CSE 15L Lab 1 Report 
-##### due on Tuesday, January 16 by 10pm ⚠️
+# CSE 15L Lab 1 Report 
+### by Marina Hu (A02 Section)
+##### due on Tuesday, January 16 by 10pm
 
 
 
 ## Workspace Commands
-🏎️ `cd`
+`cd`
 --
 * Share an example of using the command with no arguments.
   * A screenshot or Markdown code block showing the command and its output
@@ -43,7 +44,7 @@
 
 
 
-📰 `ls`
+`ls`
 --
 * Share an example of using the command with no arguments.
   * A screenshot or Markdown code block showing the command and its output
@@ -93,7 +94,7 @@
 
 
 
-➕ `cat`
+`cat`
 --
 * Share an example of using the command with no arguments.
   * A screenshot or Markdown code block showing the command and its output

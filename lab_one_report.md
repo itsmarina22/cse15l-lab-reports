@@ -60,7 +60,6 @@
   * A screenshot or Markdown code block showing the command and its output
     >![Image](lab_report_one_photos/ls_with_path_to_directory.JPG)
   * What the working directory was when the command was run
-    * ## ‼️: might want to check this, is it /home or /home/lecture1? clarify what working directory def is
     > for the `ls lecture1/` command, the working directory is `/home`
     >
     > for the `ls messages/` command, the working directory is `/home/lecture1`
@@ -102,8 +101,7 @@
   * What the working directory was when the command was run
     > `/home`
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
-    * ## ‼️: might want to check this
-    > For this command with no arguments, whatever the user types in the terminal becomes printed as the output. This is because, within the current working directory, there is no file for the command to print out the content. There is only a folder called lecture1. According the to [documentation](https://man7.org/linux/man-pages/man1/cat.1.html), it states that when cat is used with no files (as is the case here), it'll copy the standard input to standard output
+    > For this command with no arguments, whatever the user types in the terminal becomes printed as the output. This is because, within the current working directory, there is no file for the command to read and print out the content. There is only a folder called lecture1. According to the [documentation](https://man7.org/linux/man-pages/man1/cat.1.html), it states that when `cat` is used with no files (as is the case here), it'll copy the standard input to standard output. In other words, when one types more commands, one ends up typing them into the `cat` command, so it'll output what one has provided as an input.
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
     > This is not an error and instead, what is expected
 

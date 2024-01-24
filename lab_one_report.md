@@ -12,7 +12,7 @@
   * What the working directory was when the command was run
     > The working directory of the `cd` command with no arguments is `/home`.
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
-    > The output is observed because `cd` specifically is used to switch the current working directory to a given specified path. No path was provided to cd in the argument, so as a result, no output was generated or observed.
+    > The output is observed because `cd` specifically is used to switch the current working directory to a given specified path. When no argument is provided, it assumes that the working directory to switch into would be '/home' as it is the default directory. This allows the user to easily navigate back to their home directory.
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
     > This is not an error and is the expected output.
 
@@ -39,7 +39,7 @@
     > 
     > For the second time `cd Hello.java`, now we have switched to the path that contains `Hello.java`, thus the file does exist; however, `Hello.java` is a file and not a directory or path. `cd` requires specifying a desired path or directory to go to.
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
-    > This is not an error and is the expected output.
+    > This is actually an error. `cd` is designed to change the current working directory to a specified one provided in the argument, so the command was expecting a valid directory. By providing a file name, `cd` is trying to change to a directory that doesn't exist or isn't accessible. Thus the output observed is an error message as it's telling the user  that the file provided in the argument either isn't present in the working directory or just isn't a directory at all. 
 
 
 
@@ -77,7 +77,7 @@
   * What the working directory was when the command was run
     > Initially in the first `ls Hello.java`, the working directory is `/home`.
     >
-    > Then with the second `ls Hello.java` and the first `ls en-us.txt` and the first `ls en-us`, the working directory is `/home/lecture1`.
+    > Then with the second `ls Hello.java` and the first `ls en-us.txt` and the first `ls en-us`, the working directory is `/home/lecture1`. This is relevant to the ls command as it explains the different outputs we observed for each command despite being in the same working directory. 
     >
     > Finally with the second `ls en-us.txt` (no second `ls en-us` was included because this will produce an error stating that no such file or directory can be accessed, which is true because the file name is `en-us.txt` not just en-us), the working directory is `/home/lecture1/messages`.
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
@@ -114,7 +114,7 @@
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
     > The following output was produced because `cat` can only read files, not folders or directories. Because a folder/directory called lecture1 was provided, it outputs that, letting us know that lecture1 is a directory, and using cat will not read the contents of lecture1 as it is not a file. 
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
-    > This is not an error and instead, what is expected.
+    > This is an error. `cat` is used to concatenate and display the content of files provided in the argument. When we gave `cat` a path to a directory instead as an argument, it checks if what we provided is a directory and doesn't attempt to read or display to contents of the directory.  
 
  
 * Share an example of using the command with a path to a file as an argument.

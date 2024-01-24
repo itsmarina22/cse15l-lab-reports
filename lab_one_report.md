@@ -12,7 +12,7 @@
   * What the working directory was when the command was run
     > The working directory of the `cd` command with no arguments is `/home`.
   * A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
-    > The output is observed because `cd` specifically is used to switch the current working directory to a given specified path. When no argument is provided, it assumes that the working directory to switch into would be '/home' as it is the default directory. This allows the user to easily navigate back to their home directory.
+    > The output is observed because `cd` specifically is used to switch the current working directory to a given specified path. When no argument is provided, it assumes that the working directory to switch into would be `/home` as it is the default directory. This allows the user to easily navigate back to their home directory. This is more clear if we first used 'cd lecture1/' to get into the lecture1 folder directory, and then used just `cd` with no arguments. We can see that it brings the user right back to the `/home`.
   * Indicate whether the output is an error or not, and if it's an error, explain why it's an error.
     > This is not an error and is the expected output.
 

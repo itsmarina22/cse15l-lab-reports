@@ -114,8 +114,12 @@ Part 2
 Using the command line, show with ls and take screenshots of:
 
 * The absolute path to the private key for your SSH key for logging into ieng6 (on your computer, an EdStem workspace, or on the home directory of the lab computer)
+  > ![Image](lab_report_two_photos/private_key_for_SSH.JPG)
 * The absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6, so it should be a path on ieng6's file system)
+  > `/c/Users/mhu54/.ssh/id_ed25519.pub`
+  > ![Image](lab_report_two_photos/public_key_for_SSH.JPG)
 * A terminal interaction where you log into your ieng6 account without being asked for a password.
+  > ![Image](lab_report_two_photos/without_password_asked.JPG)
 
 Part 3
 --

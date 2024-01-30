@@ -11,6 +11,8 @@ Adding message 1
 Adding message 2
 > ![Image](lab_report_two_photos/message_2_added.JPG)
 
+Final Result
+> ![Image](lab_report_two_photos/completed_chat_log.JPG)
 * Which methods in your code are called?
 * What are the relevant arguments to those methods, and the values of any relevant fields of the class?
 * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.

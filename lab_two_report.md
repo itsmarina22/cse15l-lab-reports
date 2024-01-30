@@ -5,6 +5,11 @@
 Part 1
 --
 For each of the two screenshots, describe:
+Adding message 1
+> ![Image](lab_report_two_photos/message_1_added.JPG)
+
+Adding message 2
+> ![Image](lab_report_two_photos/message_2_added.JPG)
 
 * Which methods in your code are called?
 * What are the relevant arguments to those methods, and the values of any relevant fields of the class?

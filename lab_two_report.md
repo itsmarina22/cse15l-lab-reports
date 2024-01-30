@@ -88,22 +88,22 @@ Images of Code Provided Below
 Adding message 1
 > ![Image](lab_report_two_photos/message_1_added.JPG)
 * Which methods in your code are called?
-      > `public String handleRequest(URI url)` was for sure called
+  >> `public String handleRequest(URI url)` was for sure called
 * What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-      > We were tasked with creating a code where adding `/add-message?s=<string>&user=<string>` would add essentially a user's chat to an ongoing chat log
-      > Here, `s` would be `example_1_message` whereas `user` would be `yippee200`
+  >> We were tasked with creating a code where adding `/add-message?s=<string>&user=<string>` would add essentially a user's chat to an ongoing chat log
+  >> Here, `s` would be `example_1_message` whereas `user` would be `yippee200`
 * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-      > `user` and `message` got updated accordingly, so now `user` changed to `yippee200`, and `message` changed to `example_1_message`
+  >> `user` and `message` got updated accordingly, so now `user` changed to `yippee200`, and `message` changed to `example_1_message`
 
 Adding message 2
 > ![Image](lab_report_two_photos/message_2_added.JPG)
 * Which methods in your code are called?
-      > `public String handleRequest(URI url)` was for sure called
+  >> `public String handleRequest(URI url)` was for sure called
 * What are the relevant arguments to those methods, and the values of any relevant fields of the class?
-      > We were tasked with creating a code where adding `/add-message?s=<string>&user=<string>` would add essentially a user's chat to an ongoing chat log
-      > Here, `s` would be `example_2_message` whereas `user` would be `wowiee200`
+  >> We were tasked with creating a code where adding `/add-message?s=<string>&user=<string>` would add essentially a user's chat to an ongoing chat log
+  >> Here, `s` would be `example_2_message` whereas `user` would be `wowiee200`
 * How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
-      > `user` and `message` got updated accordingly, so now `user` changed to `wowiee200`, and `message` changed to `example_2_message`
+  >> `user` and `message` got updated accordingly, so now `user` changed to `wowiee200`, and `message` changed to `example_2_message`
 
 Final Result
 > ![Image](lab_report_two_photos/completed_chat_log.JPG)

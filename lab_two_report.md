@@ -83,6 +83,8 @@ Images of Code Provided Below
 > ![Image](lab_report_two_photos/chatserver_code_pt1.JPG)
 > ![Image](lab_report_two_photos/chatserver_code_pt2.JPG)
 > ![Image](lab_report_two_photos/chatserver_code_pt3.JPG)
+
+
 Adding message 1
 > ![Image](lab_report_two_photos/message_1_added.JPG)
 * Which methods in your code are called?

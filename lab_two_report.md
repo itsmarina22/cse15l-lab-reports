@@ -124,3 +124,4 @@ Using the command line, show with ls and take screenshots of:
 Part 3
 --
 * Describe something you learned from lab in week 2 or 3 that you didn't know before.
+  > I feel like I learned so much during both week 2 and week 3 of the lab since in general everything was new to me. One thing in particular though was learning the difference between the remote ieng6 computer and the local repository or computer and seeing the different steps needed to take to run and produce the same output. It was also fascinating to learn how to code the `\add-messages` part as that really taught me more about the code that was used to write the SearchEngine.java and NumberServer.java files a lot more. 

@@ -6,7 +6,8 @@ Part 1
 --
 Code Written
 * ChatServer.java Code
-`import java.io.IOException;
+```
+import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
 
@@ -75,7 +76,8 @@ class ChatServer {
 
         Server.start(port, new Handler());
     }
-} `
+}
+```
 
 Images of Code Provided Below
 > ![Image](lab_report_two_photos/chatserver_code_pt1).JPG)

@@ -13,7 +13,6 @@ import java.net.URI;
 import java.util.ArrayList;
 
 
-// THIS WORKS OMFG YAY
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
@@ -53,14 +52,6 @@ class Handler implements URLHandler {
             }
 
         } else {
-            // i don't think we need this part
-            // if (url.getPath().contains("/add")) {
-            //     String[] parameters = url.getQuery().split("=");
-            //     if (parameters[0].equals("s")) {
-            //         num += Integer.parseInt(parameters[1]);
-            //         return String.format("Number increased by %s! It's now %d", parameters[1], num);
-            //     }
-            // }
             return "404 Not Found!";
         }
     }

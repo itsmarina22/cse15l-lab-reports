@@ -1,7 +1,16 @@
 ### Part 1 - Bugs
 Choose one of the bugs from week 4's lab.
 
-Provide:
+Provide: Testing `reverseInPlace(int[] arr)`
+- Original code
+```
+static void reverseInPlace(int[] arr) {
+    // old
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
 
 - A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
   ```

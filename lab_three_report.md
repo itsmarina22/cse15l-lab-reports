@@ -63,18 +63,23 @@ Along with each option/mode you show, cite your source for how you found out abo
 
 - Choose: find
 1. Can find files of a specific type
-   > `find /path/to/directory -type f -name "*.txt"`
+   > General formatting of command: `find /path/to/directory -type f -name "*.txt"`
    >
-   > With technical/, could use `find technical/ -type f -name "*.txt"` to find all the files that are txt files. It's looking through all the files (-type f) that are txt files (-name "*.txt") in the technical/ directory. This can be particularly useful as this can be a separate way to find files that end with ".txt" rather than using grep to do so.
+   > With technical/, could use `find technical/ -type f -name "*.txt"` to find all the files that are txt files. It's looking through all the files (`-type f`) that are txt files (`-name "*.txt"`) in the technical/ directory. This can be particularly useful as this can be a separate way to find files that end with ".txt" rather than using grep to do so. The `| head -n 10` was added to the end to restrict the number of files listed, as there were a lot of files in technical/ that end with .txt, to just the first ten so that the image would be easier to capture.
    > ![Image](lab_report_three_photos/find_files_specific_type_1.JPG)
    >
    > With technical/, could use `find technical/ -type f -name "*.JPG"` to find all the files that are txt files. It's looking through all the files (-type f) that are JPG files (-name "*.JPG") in the technical/ directory. This can be particularly useful as this allows users to quickly determine the files that are pictures and can also be a separate way to find files that end with ".JPG" rather than using grep to do so.
    > ![Image](lab_report_three_photos/find_files_specific_type_2.JPG)
    > 
-2. Can find files that are larger than a specific size
-   > `find /path/to/directory -type f -size +100M`
+2. Can find files that are larger or smaller than a specific size
+   > General formatting of command: `find /path/to/directory -type f -size (+/-)100M`
+   >
+   > With technical/, could use `find technical/ -type f -size +80k` to find all files that are greater than 80 kilobytes. This can be particularly useful when one is building a potential software where the input is restricted by the file size given, so using this command line could be a quick way to find out which files are large or small enough to work for such software.  
    > ![Image](lab_report_three_photos/find_files_specific_size_1.JPG)
+   >
+   > With technical/, could use `find technical/ -type f -size -3k` to find all files that are less than 3 kilobytes. This again can be particularly useful when one is building a potential software where the input is restricted by the file size given, so using this command line could be a quick way to find out which files are large or small enough to work for such software.  
    > ![Image](lab_report_three_photos/find_files_specific_size_2.JPG)
+   > 
 3. Can find files that were last modified in the last seven days or within a time period
    > `find /path/to/directory -mtime -7`
    > ![Image](lab_report_three_photos/find_files_last_modified_1.JPG)

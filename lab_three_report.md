@@ -53,17 +53,10 @@ Choose one of the bugs from week 4's lab: Testing `reverseInPlace(int[] arr)`
 
 Part 2 - Researching Commands
 --
-Consider the commands less, find, and grep. Choose one of them. Online, find 4 interesting command-line options or alternate ways to use the command you chose. To find information about the commands, a simple Web search like “find command-line options” will probably give decent results. There is also a built-in command on many systems called man (short for “manual”) that displays information about commands; you can use man grep, for example, to see a long listing of information about how grep works. Also consider asking ChatGPT!
-
-For example, we saw the -name option for find in class. For each of those options, give 2 examples of using it on files and directories from ./technical. Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful.
-
-That makes 8 total examples, all focused on a single command. There should be two examples each for four different command-line options. Many commands like these have pretty sophisticated behavior possible – it can take years to be exposed to and learn all of the possible tricks and inner workings.
-
-Along with each option/mode you show, cite your source for how you found out about it as a URL or a description of where you found it. See the syllabus on Academic Integrity and how to cite sources like ChatGPT for this class.
-
-- Choose: find
+- Command chosen to research: find
 1. Can find files of a specific type
    > General formatting of command: `find /path/to/directory -type f -name "*.txt"`
+   > Source: OpenAI. (2022). ChatGPT (November 30 version) [Large language model](https://chat.openai.com/chat)
    >
    > With technical/, could use `find technical/ -type f -name "*.txt"` to find all the files that are txt files. It's looking through all the files (`-type f`) that are txt files (`-name "*.txt"`) in the technical/ directory. This can be particularly useful as this can be a separate way to find files that end with ".txt" rather than using grep to do so. The `| head -n 10` was added to the end to restrict the number of files listed, as there were a lot of files in technical/ that end with .txt, to just the first ten so that the image would be easier to capture.
    > ![Image](lab_report_three_photos/find_files_specific_type_1.JPG)
@@ -73,6 +66,7 @@ Along with each option/mode you show, cite your source for how you found out abo
    > 
 2. Can find files that are larger or smaller than a specific size
    > General formatting of command: `find /path/to/directory -type f -size (+/-)100M`
+   > Source: OpenAI. (2022). ChatGPT (November 30 version) [Large language model](https://chat.openai.com/chat)
    >
    > With technical/, could use `find technical/ -type f -size +80k` to find all files (`-type f`) that are greater than 80 kilobytes (`-size +80k`). This can be particularly useful when one is building a potential software where the input is restricted by the file size given, so using this command line could be a quick way to find out which files are large or small enough to work for such software.  
    > ![Image](lab_report_three_photos/find_files_specific_size_1.JPG)
@@ -82,6 +76,7 @@ Along with each option/mode you show, cite your source for how you found out abo
    > 
 3. Can find files that were last modified in the last number of days or within a time period
    > General formatting of command: `find /path/to/directory -mtime -(number of days)` or `find /path/to/directory -type f -newermt "starting_date" ! -newermt "ending_date"`
+   > Source: OpenAI. (2022). ChatGPT (November 30 version) [Large language model](https://chat.openai.com/chat)
    >
    > With technical/, could use `find technical/ -mtime -7 ` to find all the files that were modified in the last seven days (`-mtime -7`). This can be particularly useful if one wants to quickly access or know information about files that were most recently updated, resulting in potentially a change on their end with a code or some other software. The `| head -n 10` was added to the end to restrict the number of files listed, as there were a lot of files in technical/ that end with .txt, to just the first ten so that the image would be easier to capture.
    > ![Image](lab_report_three_photos/find_files_last_modified_1.JPG)
@@ -90,10 +85,12 @@ Along with each option/mode you show, cite your source for how you found out abo
    > ![Image](lab_report_three_photos/find_files_last_modified_2.JPG)
    > 
 4. Can find directories with a certain name
-   > `find /path/to/directory -type d -name "dirname"`
+   > General formatting of command: `find /path/to/directory -type d -name "dirname"`
+   > Source: OpenAI. (2022). ChatGPT (November 30 version) [Large language model](https://chat.openai.com/chat)
    >
    > With technical/, could use `find technical/ -type d -name "Media"` to find the directory of the `Media` directory. This could be more particularly useful when there are a lot of folders or directories, and so if one would like to quickly know where the specific Media directory is, they could use this command. Furthermore, if one was trying to find a directory but say they were in `Documents` instead, and they knew the `Media` directory somewhere in `GitHub`, this command (specifically `find GitHub/ -type d -name "Media"`) would be very useful in quickly identifying which directory `Media` lies in.  
    > ![Image](lab_report_three_photos/find_specific_directory_1.JPG)
    >
    > With technical/, could use `find technical/ -type d -name "Alcohol_Problems"` to find the directory of the `Alcohol_Problems` directory. This could be more particularly useful when there are a lot of folders or directories, and so if one would like to quickly know where the specific `Alcohol_Problems` directory is, they could use this command. Furthermore, if one was trying to find a directory but say they were in `Documents` instead, and they knew the `Alcohol_Problems` directory somewhere in `GitHub`, this command (specifically `find GitHub/ -type d -name "Alcohol_Problems"`) would be very useful in quickly identifying which directory `Alcohol_Problems` lies in.
    > ![Image](lab_report_three_photos/find_specific_directory_3.JPG)
+   > 

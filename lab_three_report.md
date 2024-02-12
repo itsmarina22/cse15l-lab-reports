@@ -91,5 +91,9 @@ Along with each option/mode you show, cite your source for how you found out abo
    > 
 4. Can find directories with a certain name
    > `find /path/to/directory -type d -name "dirname"`
+   >
+   > With technical/, could use `find technical/ -type d -name "Media"` to find the directory of the `Media` directory. This could be more particularly useful when there are a lot of folders or directories, and so if one would like to quickly know where the specific Media directory is, they could use this command. Furthermore, if one was trying to find a directory but say they were in `Documents` instead, and they knew the `Media` directory somewhere in `GitHub`, this command (specifically `find GitHub/ -type d -name "Media"`) would be very useful in quickly identifying which directory `Media` lies in.  
    > ![Image](lab_report_three_photos/find_specific_directory_1.JPG)
-   > ![Image](lab_report_three_photos/find_specific_directory_2.JPG)
+   >
+   > With technical/, could use `find technical/ -type d -name "Alcohol_Problems"` to find the directory of the `Alcohol_Problems` directory. This could be more particularly useful when there are a lot of folders or directories, and so if one would like to quickly know where the specific `Alcohol_Problems` directory is, they could use this command. Furthermore, if one was trying to find a directory but say they were in `Documents` instead, and they knew the `Alcohol_Problems` directory somewhere in `GitHub`, this command (specifically `find GitHub/ -type d -name "Alcohol_Problems"`) would be very useful in quickly identifying which directory `Alcohol_Problems` lies in.
+   > ![Image](lab_report_three_photos/find_specific_directory_3.JPG)

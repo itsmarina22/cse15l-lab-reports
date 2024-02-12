@@ -2,15 +2,6 @@
 Choose one of the bugs from week 4's lab.
 
 Provide: Testing `reverseInPlace(int[] arr)`
-- Original code
-```
-static void reverseInPlace(int[] arr) {
-    // old
-    for(int i = 0; i < arr.length; i += 1) {
-      arr[i] = arr[arr.length - i - 1];
-    }
-  }
-```
 
 - A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
   ```
@@ -18,7 +9,7 @@ static void reverseInPlace(int[] arr) {
   public void testReverseInPlace2() {
     int[] input1 = { 2,1 };
     ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 1,2 }, input1);
+    assertArrayEquals(new int[]{ 1,2 }, input1);   // Expected [2] but was [1]
   }
   ```
 - An input that doesn't induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
@@ -31,7 +22,27 @@ static void reverseInPlace(int[] arr) {
 	}
   ```
 - The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above)
+  > ![Image](lab_report_three_photos/failure_inducing_test_with_terminal.JPG)
 - The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+- - Before
+  - Original code
+```
+static void reverseInPlace(int[] arr) {
+    // old
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+```
+- - After
+  - New Code:
+  ```
+  for(int i = 0; i < arr.length/2; i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
+  }
+  ```
 
 Briefly describe why the fix addresses the issue.
 

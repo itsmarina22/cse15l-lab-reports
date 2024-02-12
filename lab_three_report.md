@@ -28,8 +28,8 @@ Choose one of the bugs from week 4's lab: Testing `reverseInPlace(int[] arr)`
   > ![Image](lab_report_three_photos/nonfailure_inducing_test_no_terminal.JPG)
   > ![Image](lab_report_three_photos/failure_inducing_test_with_terminal.JPG)
 - The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
-- Before
-  - Original code
+  > Before
+  > > Original code
   ```
   static void reverseInPlace(int[] arr) {
     // old
@@ -38,8 +38,8 @@ Choose one of the bugs from week 4's lab: Testing `reverseInPlace(int[] arr)`
     }
   }
   ```
-- After
-  - New Code:
+  > After
+  > > New Code:
   ```
   for(int i = 0; i < arr.length/2; i += 1) {
       int temp = arr[i];

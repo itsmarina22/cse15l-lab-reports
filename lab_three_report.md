@@ -64,8 +64,13 @@ Along with each option/mode you show, cite your source for how you found out abo
 - Choose: find
 1. Can find files of a specific type
    > `find /path/to/directory -type f -name "*.txt"`
+   >
+   > With technical/, could use `find technical/ -type f -name "*.txt"` to find all the files that are txt files. It's looking through all the files (-type f) that are txt files (-name "*.txt") in the technical/ directory. This can be particularly useful as this can be a separate way to find files that end with ".txt" rather than using grep to do so.
    > ![Image](lab_report_three_photos/find_files_specific_type_1.JPG)
+   >
+   > With technical/, could use `find technical/ -type f -name "*.JPG"` to find all the files that are txt files. It's looking through all the files (-type f) that are JPG files (-name "*.JPG") in the technical/ directory. This can be particularly useful as this allows users to quickly determine the files that are pictures and can also be a separate way to find files that end with ".JPG" rather than using grep to do so.
    > ![Image](lab_report_three_photos/find_files_specific_type_2.JPG)
+   > 
 2. Can find files that are larger than a specific size
    > `find /path/to/directory -type f -size +100M`
    > ![Image](lab_report_three_photos/find_files_specific_size_1.JPG)

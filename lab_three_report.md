@@ -60,3 +60,13 @@ For example, we saw the -name option for find in class. For each of those option
 That makes 8 total examples, all focused on a single command. There should be two examples each for four different command-line options. Many commands like these have pretty sophisticated behavior possible – it can take years to be exposed to and learn all of the possible tricks and inner workings.
 
 Along with each option/mode you show, cite your source for how you found out about it as a URL or a description of where you found it. See the syllabus on Academic Integrity and how to cite sources like ChatGPT for this class.
+
+- Choose: find
+1. Can find files of a specific type
+   > `find /path/to/directory -type f -name "*.txt"`
+2. Can find files that are larger than a specific size
+   > `find /path/to/directory -type f -size +100M`
+3. Can find files that were last modified in the last seven days or within a time period
+   > `find /path/to/directory -mtime -7`
+4. Can find directories with a certain name
+   > `find /path/to/directory -type d -name "dirname"`

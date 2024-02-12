@@ -64,9 +64,17 @@ Along with each option/mode you show, cite your source for how you found out abo
 - Choose: find
 1. Can find files of a specific type
    > `find /path/to/directory -type f -name "*.txt"`
+   > ![Image](lab_report_three_photos/find_files_specific_type_1.JPG)
+   > ![Image](lab_report_three_photos/find_files_specific_type_2.JPG)
 2. Can find files that are larger than a specific size
    > `find /path/to/directory -type f -size +100M`
+   > ![Image](lab_report_three_photos/find_files_specific_size_1.JPG)
+   > ![Image](lab_report_three_photos/find_files_specific_size_2.JPG)
 3. Can find files that were last modified in the last seven days or within a time period
    > `find /path/to/directory -mtime -7`
+   > ![Image](lab_report_three_photos/find_files_last_modified_1.JPG)
+   > ![Image](lab_report_three_photos/find_files_last_modified_2.JPG)
 4. Can find directories with a certain name
    > `find /path/to/directory -type d -name "dirname"`
+   > ![Image](lab_report_three_photos/find_specific_directory_1.JPG)
+   > ![Image](lab_report_three_photos/find_specific_directory_2.JPG)

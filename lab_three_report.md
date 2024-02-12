@@ -56,6 +56,7 @@ Part 2 - Researching Commands
 - Command chosen to research: find
 1. Can find files of a specific type
    > General formatting of command: `find /path/to/directory -type f -name "*.txt"`
+   >
    > Source: OpenAI. (2022), [ChatGPT (November 30 version)](https://chat.openai.com/chat)
    >
    > With technical/, could use `find technical/ -type f -name "*.txt"` to find all the files that are txt files. It's looking through all the files (`-type f`) that are txt files (`-name "*.txt"`) in the technical/ directory. This can be particularly useful as this can be a separate way to find files that end with ".txt" rather than using grep to do so. The `| head -n 10` was added to the end to restrict the number of files listed, as there were a lot of files in technical/ that end with .txt, to just the first ten so that the image would be easier to capture.
@@ -66,6 +67,7 @@ Part 2 - Researching Commands
    > 
 2. Can find files that are larger or smaller than a specific size
    > General formatting of command: `find /path/to/directory -type f -size (+/-)100M`
+   >
    > Source: OpenAI. (2022), [ChatGPT (November 30 version)](https://chat.openai.com/chat)
    >
    > With technical/, could use `find technical/ -type f -size +80k` to find all files (`-type f`) that are greater than 80 kilobytes (`-size +80k`). This can be particularly useful when one is building a potential software where the input is restricted by the file size given, so using this command line could be a quick way to find out which files are large or small enough to work for such software.  
@@ -76,6 +78,7 @@ Part 2 - Researching Commands
    > 
 3. Can find files that were last modified in the last number of days or within a time period
    > General formatting of command: `find /path/to/directory -mtime -(number of days)` or `find /path/to/directory -type f -newermt "starting_date" ! -newermt "ending_date"`
+   >
    > Source: OpenAI. (2022), [ChatGPT (November 30 version)](https://chat.openai.com/chat)
    >
    > With technical/, could use `find technical/ -mtime -7 ` to find all the files that were modified in the last seven days (`-mtime -7`). This can be particularly useful if one wants to quickly access or know information about files that were most recently updated, resulting in potentially a change on their end with a code or some other software. The `| head -n 10` was added to the end to restrict the number of files listed, as there were a lot of files in technical/ that end with .txt, to just the first ten so that the image would be easier to capture.
@@ -86,6 +89,7 @@ Part 2 - Researching Commands
    > 
 4. Can find directories with a certain name
    > General formatting of command: `find /path/to/directory -type d -name "dirname"`
+   >
    > Source: OpenAI. (2022), [ChatGPT (November 30 version)](https://chat.openai.com/chat)
    >
    > With technical/, could use `find technical/ -type d -name "Media"` to find the directory of the `Media` directory. This could be more particularly useful when there are a lot of folders or directories, and so if one would like to quickly know where the specific Media directory is, they could use this command. Furthermore, if one was trying to find a directory but say they were in `Documents` instead, and they knew the `Media` directory somewhere in `GitHub`, this command (specifically `find GitHub/ -type d -name "Media"`) would be very useful in quickly identifying which directory `Media` lies in.  

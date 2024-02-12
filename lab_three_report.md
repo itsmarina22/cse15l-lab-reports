@@ -80,10 +80,15 @@ Along with each option/mode you show, cite your source for how you found out abo
    > With technical/, could use `find technical/ -type f -size -3k` to find all files (`-type f`) that are less than 3 kilobytes (`-size -3k`). This again can be particularly useful when one is building a potential software where the input is restricted by the file size given, so using this command line could be a quick way to find out which files are large or small enough to work for such software.  
    > ![Image](lab_report_three_photos/find_files_specific_size_2.JPG)
    > 
-3. Can find files that were last modified in the last seven days or within a time period
-   > `find /path/to/directory -mtime -7`
+3. Can find files that were last modified in the last number of days or within a time period
+   > General formatting of command: `find /path/to/directory -mtime -(number of days)` or `find /path/to/directory -type f -newermt "starting_date" ! -newermt "ending_date"`
+   >
+   > With technical/, could use `find technical/ -mtime -7 ` to find all the files that were modified in the last seven days (`-mtime -7`). This can be particularly useful if one wants to quickly access or know information about files that were most recently updated, resulting in potentially a change on their end with a code or some other software. The `| head -n 10` was added to the end to restrict the number of files listed, as there were a lot of files in technical/ that end with .txt, to just the first ten so that the image would be easier to capture.
    > ![Image](lab_report_three_photos/find_files_last_modified_1.JPG)
+   >
+   > With technical/, could use `find technical/ -type f -newermt "2024-01-10" ! -newermt "2024-02-10"` to find all the files (`-type f`) that were modified between 01/10/2024 and 02/10/2024 (`-newermt "2024-01-10" ! -newermt "2024-02-10"`). This can again be particularly useful if one wants to quickly access or know information about files that were updated during a specific period, resulting in potentially a change on their end with a code or some other software. The `| head -n 20` was added to the end to restrict the number of files listed, as there were a lot of files in technical/ that end with .txt, to just the first 20 so that the image would be easier to capture.
    > ![Image](lab_report_three_photos/find_files_last_modified_2.JPG)
+   > 
 4. Can find directories with a certain name
    > `find /path/to/directory -type d -name "dirname"`
    > ![Image](lab_report_three_photos/find_specific_directory_1.JPG)

@@ -74,10 +74,10 @@ Along with each option/mode you show, cite your source for how you found out abo
 2. Can find files that are larger or smaller than a specific size
    > General formatting of command: `find /path/to/directory -type f -size (+/-)100M`
    >
-   > With technical/, could use `find technical/ -type f -size +80k` to find all files that are greater than 80 kilobytes. This can be particularly useful when one is building a potential software where the input is restricted by the file size given, so using this command line could be a quick way to find out which files are large or small enough to work for such software.  
+   > With technical/, could use `find technical/ -type f -size +80k` to find all files (`-type f`) that are greater than 80 kilobytes (`-size +80k`). This can be particularly useful when one is building a potential software where the input is restricted by the file size given, so using this command line could be a quick way to find out which files are large or small enough to work for such software.  
    > ![Image](lab_report_three_photos/find_files_specific_size_1.JPG)
    >
-   > With technical/, could use `find technical/ -type f -size -3k` to find all files that are less than 3 kilobytes. This again can be particularly useful when one is building a potential software where the input is restricted by the file size given, so using this command line could be a quick way to find out which files are large or small enough to work for such software.  
+   > With technical/, could use `find technical/ -type f -size -3k` to find all files (`-type f`) that are less than 3 kilobytes (`-size -3k`). This again can be particularly useful when one is building a potential software where the input is restricted by the file size given, so using this command line could be a quick way to find out which files are large or small enough to work for such software.  
    > ![Image](lab_report_three_photos/find_files_specific_size_2.JPG)
    > 
 3. Can find files that were last modified in the last seven days or within a time period

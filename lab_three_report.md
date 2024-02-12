@@ -1,4 +1,9 @@
-### Part 1 - Bugs
+# CSE 15L Lab 3 Report 
+### by Marina Hu (W24 A02 Section)
+#### due on Tuesday, February 13 by 10 PM
+
+Part 1 - Bugs
+--
 Choose one of the bugs from week 4's lab: Testing `reverseInPlace(int[] arr)`
 
 - A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
@@ -42,10 +47,12 @@ Choose one of the bugs from week 4's lab: Testing `reverseInPlace(int[] arr)`
       arr[arr.length - i - 1] = temp;
   }
   ```
-- Briefly describe why the fix addresses the issue: In the old or original method, there was an issue with the for loop, thus making it unable to handle any array that's longer than a length of 2. The for loop does iterate through the entire array, but the new assignment was incorrect as with each iteration, it overwrites the elements in the array with elements from the reversed position. So for example, with the failure-inducing input with the old code, the test, rather than seeing `{1,2}`, saw `{1, 1}`, hence why it's returning an error message that it was expecting [2] but saw [1] instead at index = 1. Because of this bud, the first test passed as it was only a length of 1, so the for loop coincidentally worked out for it, but once the length increased, a failure input was induced.
+- Briefly describe why the fix addresses the issue
+  - In the old or original method, there was an issue with the for loop, thus making it unable to handle any array that's longer than a length of 2. The for loop does iterate through the entire array, but the new assignment was incorrect as with each iteration, it overwrites the elements in the array with elements from the reversed position. So for example, with the failure-inducing input with the old code, the test, rather than seeing `{1,2}`, saw `{1, 1}`, hence why it's returning an error message that it was expecting [2] but saw [1] instead at index = 1. Because of this bud, the first test passed as it was only a length of 1, so the for loop coincidentally worked out for it, but once the length increased, a failure input was induced.
 
 
-### Part 2 - Researching Commands
+Part 2 - Researching Commands
+--
 Consider the commands less, find, and grep. Choose one of them. Online, find 4 interesting command-line options or alternate ways to use the command you chose. To find information about the commands, a simple Web search like “find command-line options” will probably give decent results. There is also a built-in command on many systems called man (short for “manual”) that displays information about commands; you can use man grep, for example, to see a long listing of information about how grep works. Also consider asking ChatGPT!
 
 For example, we saw the -name option for find in class. For each of those options, give 2 examples of using it on files and directories from ./technical. Show each example as a code block that shows the command and its output, and write a sentence or two about what it’s doing and why it’s useful.

@@ -52,7 +52,8 @@ Choose one of the bugs from week 4's lab: Testing `reverseInPlace(int[] arr)`
 
 Part 2 - Researching Commands
 --
-- Command chosen to research: find
+Command chosen to research: find
+
 1. Can find files of a specific type
    > General formatting of command: `find /path/to/directory -type f -name "*.txt"`
    >

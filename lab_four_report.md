@@ -3,7 +3,7 @@
 #### due on Tuesday, February 27 by 10 PM
 
 1. Log into ieng6
-  A. Looked through command history to get `ssh mlhu@ieng6.ucsd.edu`:
+  -- Looked through command history to get `ssh mlhu@ieng6.ucsd.edu`:
     > `<up>` `<Enter>`
 2. Clone your fork of the repository from your GitHub account (using the SSH URL)
   - For reference, the SSH URL from GitHub for my forked repo

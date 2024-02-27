@@ -1,6 +1,6 @@
 
 1. Log into ieng6
-  - <up> <Enter>
+  - `<up>` `<Enter>`
   - looked through command history to get `ssh mlhu@ieng6.ucsd.edu`
 2. Clone your fork of the repository from your Github account (using the SSH URL)
   - rm -rf lab7 (to make sure it's deleted)

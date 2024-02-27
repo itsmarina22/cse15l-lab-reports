@@ -1,3 +1,6 @@
+# CSE 15L Lab 4 Report 
+### by Marina Hu (W24 A02 Section)
+#### due on Tuesday, February 27 by 10 PM
 
 1. Log into ieng6
   - `<up>` `<Enter>`

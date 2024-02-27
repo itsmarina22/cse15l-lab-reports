@@ -7,9 +7,9 @@
     > ![Image](lab_report_four_photos/(1)logging_into_ieng6.JPG)
     
 2. Clone your fork of the repository from your GitHub account (using the SSH URL)
-  - For reference, the SSH URL from GitHub for my forked repo: git@github.com:itsmarina22/lab7.git
-  - To make sure it's deleted: rm -rf lab7
-  - After copying ssh url from the forked repository, clone it into my ieng6: git clone `<Ctrl+V>` `<Enter>`
+  - For reference, the SSH URL from GitHub for my forked repo: `git@github.com:itsmarina22/lab7.git`
+  - To make sure it's deleted: `rm -rf lab7`
+  - After copying ssh url from the forked repository, clone it into my ieng6: `git clone `<Ctrl+V>` `<Enter>``
     > ![Image](lab_report_four_photos/(2)cloning_forked_repo.JPG)
     
 3. Run the tests, demonstrating that they fail

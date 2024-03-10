@@ -19,7 +19,7 @@
 
 4. Edit the code file to fix the failing test
   - Accessing the ListExamples.java file: `vim L<Tab>.java <Enter>`
-  - Finding 'index1' in the file: `<n> <n> <n> <n> <n> <n> <n> <n> <n>`
+  - Finding `index1` in the file by using `/index1` and then finding the right next occurrence of `index1` that we want to edit with `<n>`, which in my case took 9 clicks to get to the last `index 1`, aka the one we wanted to edit: `/index1 <Enter> <n> <n> <n> <n> <n> <n> <n> <n> <n>`
   - Actually editing and changing 'index1' to 'index2' by first going to the end of the word(`<e>`), going one step to the left so that the cursor is over the '1' (`<h>`), then deleting the '1'(`<x>`), and changing it to '2' before exiting the editing mode (`<Esc>`): `<e> <h> <x> 2 <Esc>`
   - Saving the edits: `:wq <Enter>`
     > ![Image](lab_report_four_photos/(4a)step2_3_pre4_combined.JPG)
